@@ -12,7 +12,7 @@ var bufferLoader;
 
 
 function wap_init() {
-	wap = new webkitAudioContext();
+	wap = new AudioContext();
 	bufferLoader = new BufferLoader(wap ,
 			[
 			"./sound/drums/bass.mp3" ,
